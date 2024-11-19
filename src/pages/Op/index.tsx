@@ -45,12 +45,71 @@ Kandungan Gizi Per 100 Gram:
 • Magnesium: 12% dari kebutuhan harian`}
         </Text>
       </Text>
-
       <Image
-        source={require('../../assets/icon/Grainjoy.png')}
+        source={require('../../assets/icon/ChocoGrainjoy.png')}
         style={styles.image}
         resizeMode="contain"
       />
+       <Gap height={25} />
+      <Text style={styles.box}>
+        <Text style={styles.text}>
+          {`Bahan-Bahan Utama: 
+1. Tepung Gandum Utuh 
+2. Dark Chocolate
+3. Oatmeal
+4. Minyak Kelapa Murni
+5. Gula Kelapa
+6. Telur Organik
+7. Bubuk Kakao 
+8. Baking Soda
+9. Vanilla Extract
+10. Garam Laut Halus
+
+Kandungan Gizi Per 100 Gram:
+• Kalori: 150 kkal
+• Protein: 4 g
+• Karbohidrat: 22 g
+• Serat: 5 g
+• Gula: 6 g
+• Lemak: 5 g
+• Antioksidan
+• Zat Besi: 10% dari kebutuhan harian
+• Magnesium: 12% dari kebutuhan harian`}
+        </Text>
+      </Text>
+      <Gap height={25} />
+      <Image
+        source={require('../../assets/icon/PinkGrainjoy.png')}
+        style={styles.image}
+        resizeMode="contain"
+      />
+       <Gap height={25} />
+      <Text style={styles.box}>
+        <Text style={styles.text}>
+          {`Bahan-Bahan Utama: 
+1. Tepung Gandum Utuh 
+2. Dark Chocolate
+3. Oatmeal
+4. Minyak Kelapa Murni
+5. Gula Kelapa
+6. Telur Organik
+7. Bubuk Kakao 
+8. Baking Soda
+9. Vanilla Extract
+10. Garam Laut Halus
+
+Kandungan Gizi Per 100 Gram:
+• Kalori: 150 kkal
+• Protein: 4 g
+• Karbohidrat: 22 g
+• Serat: 5 g
+• Gula: 6 g
+• Lemak: 5 g
+• Antioksidan
+• Zat Besi: 10% dari kebutuhan harian
+• Magnesium: 12% dari kebutuhan harian`}
+        </Text>
+      </Text>
     </ScrollView>
   );
 };
