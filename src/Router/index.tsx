@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import {Splash, Op, Order,Contact} from '../pages';
+import {Splash, Op, Order,Contact, Thankyou, Cancel} from '../pages';
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
@@ -25,6 +25,16 @@ const index = () => {
       <Stack.Screen
         name="Contact"
         component={Contact}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="Thankyou"
+        component={Thankyou}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="Cancel"
+        component={Cancel}
         options={{headerShown: false}}
       />
     </Stack.Navigator>
